@@ -1,0 +1,37 @@
+1 addExchange 0 1
+2 addExchange 0 2
+3 addExchange 0 3
+4 queryLowestRouter 2 3
+5 queryNthChild 0 0
+6 queryNthChild 0 3
+7 addExchange 1 4
+8 addExchange 1 5
+9 queryLowestRouter 4 5
+10 addExchange 2 6
+11 addExchange 2 7
+12 addExchange 2 8
+13 addExchange 3 9
+15 queryNthChild 2 0
+17 queryNthChild 3 0
+19 switchOnMobile 989 4
+21 queryFindPhone 989
+23 switchOnMobile 876 4
+25 queryMobilePhoneSet 4
+27 queryMobilePhoneSet 1
+29 switchOnMobile 656 5
+31 switchOnMobile 54 5
+33 queryMobilePhoneSet 1
+35 switchOffMobile 656
+37 queryMobilePhoneSet 1
+39 switchOnMobile 213 6
+41 switchOnMobile 568 7
+43 switchOnMobile 897 8
+45 switchOnMobile 295 8
+47 switchOnMobile 346 9
+49 queryMobilePhoneSet 0
+51 queryFindCallPath 989 876 4
+53 queryFindCallPath 54 876 3
+57 queryFindCallPath 876 989 1
+59 switchOffMobile 989
+61 queryFindCallPath 876 989 3
+65 queryFindCallPath 876 346 5
