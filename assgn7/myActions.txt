@@ -1,0 +1,27 @@
+edge rashtrapatibhavan indiagate 5
+edge rashtrapatibhavan chanakyapuri 15
+edge indiagate AIIMS 30
+edge cantonment chanakyapuri 10
+edge chanakyapuri AIIMS 40
+edge AIIMS lajpatnagar 20
+edge cantonment vasantvihar 30
+edge chanakyapuri munirka 25
+edge chanakyapuri iithostelgate 35
+edge AIIMS iitmaingate 20
+edge lajpatnagar iitmaingate 40
+edge vasantvihar munirka 30
+edge munirka iithostelgate 20
+edge iithostelgate iitmaingate 10
+edge vasantvihar terminal3 10
+taxi adam rashtrapatibhavan
+taxi alice indiagate
+taxi bob cantonment
+taxi prathmesh chanakyapuri
+taxi manoj AIIMS
+taxi rajesh AIIMS
+taxi harinder lajpatnagar
+taxi ismail lajpatnagar
+taxi chinappa vasantvihar
+taxi sheshadri munirka
+taxi john munirka
+customer rashtrapatibhavan terminal3 45

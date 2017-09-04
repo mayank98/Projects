@@ -1,0 +1,439 @@
+RIBHAVs-MacBook-Pro:assignment7.2 Ribhav$ javac checker.java
+RIBHAVs-MacBook-Pro:assignment7.2 Ribhav$ java checker
+
+action to be performed: edge rashtrapatibhavan indiagate 5
+
+action to be performed: edge rashtrapatibhavan chanakyapuri 15
+
+action to be performed: edge indiagate AIIMS 30
+
+action to be performed: edge cantonment chanakyapuri 10
+
+action to be performed: edge chanakyapuri AIIMS 40
+
+action to be performed: edge AIIMS lajpatnagar 20
+
+action to be performed: edge cantonment vasantvihar 30
+
+action to be performed: edge chanakyapuri munirka 25
+
+action to be performed: edge chanakyapuri iithostelgate 35
+
+action to be performed: edge AIIMS iitmaingate 20
+
+action to be performed: edge lajpatnagar iitmaingate 40
+
+action to be performed: edge vasantvihar munirka 30
+
+action to be performed: edge munirka iithostelgate 20
+
+action to be performed: edge iithostelgate iitmaingate 10
+
+action to be performed: edge vasantvihar terminal3 10
+
+action to be performed: taxi adam rashtrapatibhavan
+
+action to be performed: taxi alice indiagate
+
+action to be performed: taxi bob cantonment
+
+action to be performed: taxi prathmesh chanakyapuri
+
+action to be performed: taxi manoj AIIMS
+
+action to be performed: taxi rajesh AIIMS
+
+action to be performed: taxi harinder lajpatnagar
+
+action to be performed: taxi ismail lajpatnagar
+
+action to be performed: taxi chinappa vasantvihar
+
+action to be performed: taxi sheshadri munirka
+
+action to be performed: taxi john munirka
+
+action to be performed: taxi ankit munirka
+
+action to be performed: taxi raja iithostelgate
+
+action to be performed: taxi mary iitmaingate
+
+action to be performed: taxi shafiq terminal3
+
+action to be performed: taxi ashutosh terminal3
+
+action to be performed: taxi rohit terminal3
+
+action to be performed: taxi ram AIIMS
+
+action to be performed: taxi cyrus chanakyapuri
+
+action to be performed: taxi sapna indiagate
+
+action to be performed: printTaxiPosition 0
+ Taxi adam:rashtrapatibhavan
+ Taxi alice:indiagate
+ Taxi bob:cantonment
+ Taxi prathmesh:chanakyapuri
+ Taxi manoj:AIIMS
+ Taxi rajesh:AIIMS
+ Taxi harinder:lajpatnagar
+ Taxi ismail:lajpatnagar
+ Taxi chinappa:vasantvihar
+ Taxi sheshadri:munirka
+ Taxi john:munirka
+ Taxi ankit:munirka
+ Taxi raja:iithostelgate
+ Taxi mary:iitmaingate
+ Taxi shafiq:terminal3
+ Taxi ashutosh:terminal3
+ Taxi rohit:terminal3
+ Taxi ram:AIIMS
+ Taxi cyrus:chanakyapuri
+ Taxi sapna:indiagate
+
+action to be performed: customer iitmaingate munirka 1
+
+Path of taxi adam:rashtrapatibhavan,indiagate,AIIMS,iitmaingate, Time taken is 55 units
+Path of taxi alice:indiagate,AIIMS,iitmaingate, Time taken is 50 units
+Path of taxi bob:cantonment,chanakyapuri,iithostelgate,iitmaingate, Time taken is 55 units
+Path of taxi prathmesh:chanakyapuri,iithostelgate,iitmaingate, Time taken is 45 units
+Path of taxi manoj:AIIMS,iitmaingate, Time taken is 20 units
+Path of taxi rajesh:AIIMS,iitmaingate, Time taken is 20 units
+Path of taxi harinder:lajpatnagar,iitmaingate, Time taken is 40 units
+Path of taxi ismail:lajpatnagar,iitmaingate, Time taken is 40 units
+Path of taxi chinappa:vasantvihar,munirka,iithostelgate,iitmaingate, Time taken is 60 units
+Path of taxi sheshadri:munirka,iithostelgate,iitmaingate, Time taken is 30 units
+Path of taxi john:munirka,iithostelgate,iitmaingate, Time taken is 30 units
+Path of taxi ankit:munirka,iithostelgate,iitmaingate, Time taken is 30 units
+Path of taxi raja:iithostelgate,iitmaingate, Time taken is 10 units
+Path of taxi mary:iitmaingate, Time taken is 0 units
+Path of taxi shafiq:terminal3,vasantvihar,munirka,iithostelgate,iitmaingate, Time taken is 70 units
+Path of taxi ashutosh:terminal3,vasantvihar,munirka,iithostelgate,iitmaingate, Time taken is 70 units
+Path of taxi rohit:terminal3,vasantvihar,munirka,iithostelgate,iitmaingate, Time taken is 70 units
+Path of taxi ram:AIIMS,iitmaingate, Time taken is 20 units
+Path of taxi cyrus:chanakyapuri,iithostelgate,iitmaingate, Time taken is 45 units
+Path of taxi sapna:indiagate,AIIMS,iitmaingate, Time taken is 50 units
+** Chose taxi mary to service the customer request ***
+Path of customer: 
+iitmaingate,iithostelgate,munirka, Time taken is 30
+
+action to be performed: customer AIIMS cantonment 5
+
+Path of taxi adam:rashtrapatibhavan,indiagate,AIIMS, Time taken is 35 units
+Path of taxi alice:indiagate,AIIMS, Time taken is 30 units
+Path of taxi bob:cantonment,chanakyapuri,AIIMS, Time taken is 50 units
+Path of taxi prathmesh:chanakyapuri,AIIMS, Time taken is 40 units
+Path of taxi manoj:AIIMS, Time taken is 0 units
+Path of taxi rajesh:AIIMS, Time taken is 0 units
+Path of taxi harinder:lajpatnagar,AIIMS, Time taken is 20 units
+Path of taxi ismail:lajpatnagar,AIIMS, Time taken is 20 units
+Path of taxi chinappa:vasantvihar,cantonment,chanakyapuri,AIIMS, Time taken is 80 units
+Path of taxi sheshadri:munirka,iithostelgate,iitmaingate,AIIMS, Time taken is 50 units
+Path of taxi john:munirka,iithostelgate,iitmaingate,AIIMS, Time taken is 50 units
+Path of taxi ankit:munirka,iithostelgate,iitmaingate,AIIMS, Time taken is 50 units
+Path of taxi raja:iithostelgate,iitmaingate,AIIMS, Time taken is 30 units
+Path of taxi shafiq:terminal3,vasantvihar,cantonment,chanakyapuri,AIIMS, Time taken is 90 units
+Path of taxi ashutosh:terminal3,vasantvihar,cantonment,chanakyapuri,AIIMS, Time taken is 90 units
+Path of taxi rohit:terminal3,vasantvihar,cantonment,chanakyapuri,AIIMS, Time taken is 90 units
+Path of taxi ram:AIIMS, Time taken is 0 units
+Path of taxi cyrus:chanakyapuri,AIIMS, Time taken is 40 units
+Path of taxi sapna:indiagate,AIIMS, Time taken is 30 units
+** Chose taxi ram to service the customer request ***
+Path of customer: 
+AIIMS,chanakyapuri,cantonment, Time taken is 50
+
+action to be performed: customer cantonment AIIMS 10
+
+Path of taxi adam:rashtrapatibhavan,chanakyapuri,cantonment, Time taken is 25 units
+Path of taxi alice:indiagate,rashtrapatibhavan,chanakyapuri,cantonment, Time taken is 30 units
+Path of taxi bob:cantonment, Time taken is 0 units
+Path of taxi prathmesh:chanakyapuri,cantonment, Time taken is 10 units
+Path of taxi manoj:AIIMS,chanakyapuri,cantonment, Time taken is 50 units
+Path of taxi rajesh:AIIMS,chanakyapuri,cantonment, Time taken is 50 units
+Path of taxi harinder:lajpatnagar,AIIMS,chanakyapuri,cantonment, Time taken is 70 units
+Path of taxi ismail:lajpatnagar,AIIMS,chanakyapuri,cantonment, Time taken is 70 units
+Path of taxi chinappa:vasantvihar,cantonment, Time taken is 30 units
+Path of taxi sheshadri:munirka,chanakyapuri,cantonment, Time taken is 35 units
+Path of taxi john:munirka,chanakyapuri,cantonment, Time taken is 35 units
+Path of taxi ankit:munirka,chanakyapuri,cantonment, Time taken is 35 units
+Path of taxi raja:iithostelgate,chanakyapuri,cantonment, Time taken is 45 units
+Path of taxi shafiq:terminal3,vasantvihar,cantonment, Time taken is 40 units
+Path of taxi ashutosh:terminal3,vasantvihar,cantonment, Time taken is 40 units
+Path of taxi rohit:terminal3,vasantvihar,cantonment, Time taken is 40 units
+Path of taxi cyrus:chanakyapuri,cantonment, Time taken is 10 units
+Path of taxi sapna:indiagate,rashtrapatibhavan,chanakyapuri,cantonment, Time taken is 30 units
+** Chose taxi bob to service the customer request ***
+Path of customer: 
+cantonment,chanakyapuri,AIIMS, Time taken is 50
+
+action to be performed: customer cantonment terminal3 10
+
+Path of taxi adam:rashtrapatibhavan,chanakyapuri,cantonment, Time taken is 25 units
+Path of taxi alice:indiagate,rashtrapatibhavan,chanakyapuri,cantonment, Time taken is 30 units
+Path of taxi prathmesh:chanakyapuri,cantonment, Time taken is 10 units
+Path of taxi manoj:AIIMS,chanakyapuri,cantonment, Time taken is 50 units
+Path of taxi rajesh:AIIMS,chanakyapuri,cantonment, Time taken is 50 units
+Path of taxi harinder:lajpatnagar,AIIMS,chanakyapuri,cantonment, Time taken is 70 units
+Path of taxi ismail:lajpatnagar,AIIMS,chanakyapuri,cantonment, Time taken is 70 units
+Path of taxi chinappa:vasantvihar,cantonment, Time taken is 30 units
+Path of taxi sheshadri:munirka,chanakyapuri,cantonment, Time taken is 35 units
+Path of taxi john:munirka,chanakyapuri,cantonment, Time taken is 35 units
+Path of taxi ankit:munirka,chanakyapuri,cantonment, Time taken is 35 units
+Path of taxi raja:iithostelgate,chanakyapuri,cantonment, Time taken is 45 units
+Path of taxi shafiq:terminal3,vasantvihar,cantonment, Time taken is 40 units
+Path of taxi ashutosh:terminal3,vasantvihar,cantonment, Time taken is 40 units
+Path of taxi rohit:terminal3,vasantvihar,cantonment, Time taken is 40 units
+Path of taxi cyrus:chanakyapuri,cantonment, Time taken is 10 units
+Path of taxi sapna:indiagate,rashtrapatibhavan,chanakyapuri,cantonment, Time taken is 30 units
+** Chose taxi cyrus to service the customer request ***
+Path of customer: 
+cantonment,vasantvihar,terminal3, Time taken is 40
+
+action to be performed: printTaxiPosition 11
+ Taxi adam:rashtrapatibhavan
+ Taxi alice:indiagate
+TAXI bob IS SERVING A CLIENT and will be available after 60 from ORIGIN
+ Taxi prathmesh:chanakyapuri
+ Taxi manoj:AIIMS
+ Taxi rajesh:AIIMS
+ Taxi harinder:lajpatnagar
+ Taxi ismail:lajpatnagar
+ Taxi chinappa:vasantvihar
+ Taxi sheshadri:munirka
+ Taxi john:munirka
+ Taxi ankit:munirka
+ Taxi raja:iithostelgate
+TAXI mary IS SERVING A CLIENT and will be available after 31 from ORIGIN
+ Taxi shafiq:terminal3
+ Taxi ashutosh:terminal3
+ Taxi rohit:terminal3
+TAXI ram IS SERVING A CLIENT and will be available after 55 from ORIGIN
+TAXI cyrus IS SERVING A CLIENT and will be available after 60 from ORIGIN
+ Taxi sapna:indiagate
+
+action to be performed: customer iithostelgate chanakyapuri 15
+
+Path of taxi adam:rashtrapatibhavan,chanakyapuri,iithostelgate, Time taken is 50 units
+Path of taxi alice:indiagate,rashtrapatibhavan,chanakyapuri,iithostelgate, Time taken is 55 units
+Path of taxi prathmesh:chanakyapuri,iithostelgate, Time taken is 35 units
+Path of taxi manoj:AIIMS,iitmaingate,iithostelgate, Time taken is 30 units
+Path of taxi rajesh:AIIMS,iitmaingate,iithostelgate, Time taken is 30 units
+Path of taxi harinder:lajpatnagar,iitmaingate,iithostelgate, Time taken is 50 units
+Path of taxi ismail:lajpatnagar,iitmaingate,iithostelgate, Time taken is 50 units
+Path of taxi chinappa:vasantvihar,munirka,iithostelgate, Time taken is 50 units
+Path of taxi sheshadri:munirka,iithostelgate, Time taken is 20 units
+Path of taxi john:munirka,iithostelgate, Time taken is 20 units
+Path of taxi ankit:munirka,iithostelgate, Time taken is 20 units
+Path of taxi raja:iithostelgate, Time taken is 0 units
+Path of taxi shafiq:terminal3,vasantvihar,munirka,iithostelgate, Time taken is 60 units
+Path of taxi ashutosh:terminal3,vasantvihar,munirka,iithostelgate, Time taken is 60 units
+Path of taxi rohit:terminal3,vasantvihar,munirka,iithostelgate, Time taken is 60 units
+Path of taxi sapna:indiagate,rashtrapatibhavan,chanakyapuri,iithostelgate, Time taken is 55 units
+** Chose taxi raja to service the customer request ***
+Path of customer: 
+iithostelgate,chanakyapuri, Time taken is 35
+
+action to be performed: customer munirka vasantvihar 15
+
+Path of taxi adam:rashtrapatibhavan,chanakyapuri,munirka, Time taken is 40 units
+Path of taxi alice:indiagate,rashtrapatibhavan,chanakyapuri,munirka, Time taken is 45 units
+Path of taxi prathmesh:chanakyapuri,munirka, Time taken is 25 units
+Path of taxi manoj:AIIMS,iitmaingate,iithostelgate,munirka, Time taken is 50 units
+Path of taxi rajesh:AIIMS,iitmaingate,iithostelgate,munirka, Time taken is 50 units
+Path of taxi harinder:lajpatnagar,iitmaingate,iithostelgate,munirka, Time taken is 70 units
+Path of taxi ismail:lajpatnagar,iitmaingate,iithostelgate,munirka, Time taken is 70 units
+Path of taxi chinappa:vasantvihar,munirka, Time taken is 30 units
+Path of taxi sheshadri:munirka, Time taken is 0 units
+Path of taxi john:munirka, Time taken is 0 units
+Path of taxi ankit:munirka, Time taken is 0 units
+Path of taxi shafiq:terminal3,vasantvihar,munirka, Time taken is 40 units
+Path of taxi ashutosh:terminal3,vasantvihar,munirka, Time taken is 40 units
+Path of taxi rohit:terminal3,vasantvihar,munirka, Time taken is 40 units
+Path of taxi sapna:indiagate,rashtrapatibhavan,chanakyapuri,munirka, Time taken is 45 units
+** Chose taxi ankit to service the customer request ***
+Path of customer: 
+munirka,vasantvihar, Time taken is 30
+
+action to be performed: customer vasantvihar lajpatnagar 25
+
+Path of taxi adam:rashtrapatibhavan,chanakyapuri,cantonment,vasantvihar, Time taken is 55 units
+Path of taxi alice:indiagate,rashtrapatibhavan,chanakyapuri,cantonment,vasantvihar, Time taken is 60 units
+Path of taxi prathmesh:chanakyapuri,cantonment,vasantvihar, Time taken is 40 units
+Path of taxi manoj:AIIMS,chanakyapuri,cantonment,vasantvihar, Time taken is 80 units
+Path of taxi rajesh:AIIMS,chanakyapuri,cantonment,vasantvihar, Time taken is 80 units
+Path of taxi harinder:lajpatnagar,iitmaingate,iithostelgate,munirka,vasantvihar, Time taken is 100 units
+Path of taxi ismail:lajpatnagar,iitmaingate,iithostelgate,munirka,vasantvihar, Time taken is 100 units
+Path of taxi chinappa:vasantvihar, Time taken is 0 units
+Path of taxi sheshadri:munirka,vasantvihar, Time taken is 30 units
+Path of taxi john:munirka,vasantvihar, Time taken is 30 units
+Path of taxi shafiq:terminal3,vasantvihar, Time taken is 10 units
+Path of taxi ashutosh:terminal3,vasantvihar, Time taken is 10 units
+Path of taxi rohit:terminal3,vasantvihar, Time taken is 10 units
+Path of taxi sapna:indiagate,rashtrapatibhavan,chanakyapuri,cantonment,vasantvihar, Time taken is 60 units
+** Chose taxi chinappa to service the customer request ***
+Path of customer: 
+vasantvihar,cantonment,chanakyapuri,AIIMS,lajpatnagar, Time taken is 100
+
+action to be performed: printTaxiPosition 26
+ Taxi adam:rashtrapatibhavan
+ Taxi alice:indiagate
+TAXI bob IS SERVING A CLIENT and will be available after 60 from ORIGIN
+ Taxi prathmesh:chanakyapuri
+ Taxi manoj:AIIMS
+ Taxi rajesh:AIIMS
+ Taxi harinder:lajpatnagar
+ Taxi ismail:lajpatnagar
+TAXI chinappa IS SERVING A CLIENT and will be available after 125 from ORIGIN
+ Taxi sheshadri:munirka
+ Taxi john:munirka
+TAXI ankit IS SERVING A CLIENT and will be available after 45 from ORIGIN
+TAXI raja IS SERVING A CLIENT and will be available after 50 from ORIGIN
+TAXI mary IS SERVING A CLIENT and will be available after 31 from ORIGIN
+ Taxi shafiq:terminal3
+ Taxi ashutosh:terminal3
+ Taxi rohit:terminal3
+TAXI ram IS SERVING A CLIENT and will be available after 55 from ORIGIN
+TAXI cyrus IS SERVING A CLIENT and will be available after 60 from ORIGIN
+ Taxi sapna:indiagate
+
+action to be performed: customer cantonment lajpatnagar 40
+
+Path of taxi adam:rashtrapatibhavan,chanakyapuri,cantonment, Time taken is 25 units
+Path of taxi alice:indiagate,rashtrapatibhavan,chanakyapuri,cantonment, Time taken is 30 units
+Path of taxi prathmesh:chanakyapuri,cantonment, Time taken is 10 units
+Path of taxi manoj:AIIMS,chanakyapuri,cantonment, Time taken is 50 units
+Path of taxi rajesh:AIIMS,chanakyapuri,cantonment, Time taken is 50 units
+Path of taxi harinder:lajpatnagar,AIIMS,chanakyapuri,cantonment, Time taken is 70 units
+Path of taxi ismail:lajpatnagar,AIIMS,chanakyapuri,cantonment, Time taken is 70 units
+Path of taxi sheshadri:munirka,chanakyapuri,cantonment, Time taken is 35 units
+Path of taxi john:munirka,chanakyapuri,cantonment, Time taken is 35 units
+Path of taxi mary:munirka,chanakyapuri,cantonment, Time taken is 35 units
+Path of taxi shafiq:terminal3,vasantvihar,cantonment, Time taken is 40 units
+Path of taxi ashutosh:terminal3,vasantvihar,cantonment, Time taken is 40 units
+Path of taxi rohit:terminal3,vasantvihar,cantonment, Time taken is 40 units
+Path of taxi sapna:indiagate,rashtrapatibhavan,chanakyapuri,cantonment, Time taken is 30 units
+** Chose taxi prathmesh to service the customer request ***
+Path of customer: 
+cantonment,chanakyapuri,AIIMS,lajpatnagar, Time taken is 70
+
+action to be performed: customer rashtrapatibhavan AIIMS 40
+
+Path of taxi adam:rashtrapatibhavan, Time taken is 0 units
+Path of taxi alice:indiagate,rashtrapatibhavan, Time taken is 5 units
+Path of taxi manoj:AIIMS,indiagate,rashtrapatibhavan, Time taken is 35 units
+Path of taxi rajesh:AIIMS,indiagate,rashtrapatibhavan, Time taken is 35 units
+Path of taxi harinder:lajpatnagar,AIIMS,indiagate,rashtrapatibhavan, Time taken is 55 units
+Path of taxi ismail:lajpatnagar,AIIMS,indiagate,rashtrapatibhavan, Time taken is 55 units
+Path of taxi sheshadri:munirka,chanakyapuri,rashtrapatibhavan, Time taken is 40 units
+Path of taxi john:munirka,chanakyapuri,rashtrapatibhavan, Time taken is 40 units
+Path of taxi mary:munirka,chanakyapuri,rashtrapatibhavan, Time taken is 40 units
+Path of taxi shafiq:terminal3,vasantvihar,cantonment,chanakyapuri,rashtrapatibhavan, Time taken is 65 units
+Path of taxi ashutosh:terminal3,vasantvihar,cantonment,chanakyapuri,rashtrapatibhavan, Time taken is 65 units
+Path of taxi rohit:terminal3,vasantvihar,cantonment,chanakyapuri,rashtrapatibhavan, Time taken is 65 units
+Path of taxi sapna:indiagate,rashtrapatibhavan, Time taken is 5 units
+** Chose taxi adam to service the customer request ***
+Path of customer: 
+rashtrapatibhavan,indiagate,AIIMS, Time taken is 35
+
+action to be performed: customer indiagate munirka 40
+
+Path of taxi alice:indiagate, Time taken is 0 units
+Path of taxi manoj:AIIMS,indiagate, Time taken is 30 units
+Path of taxi rajesh:AIIMS,indiagate, Time taken is 30 units
+Path of taxi harinder:lajpatnagar,AIIMS,indiagate, Time taken is 50 units
+Path of taxi ismail:lajpatnagar,AIIMS,indiagate, Time taken is 50 units
+Path of taxi sheshadri:munirka,chanakyapuri,rashtrapatibhavan,indiagate, Time taken is 45 units
+Path of taxi john:munirka,chanakyapuri,rashtrapatibhavan,indiagate, Time taken is 45 units
+Path of taxi mary:munirka,chanakyapuri,rashtrapatibhavan,indiagate, Time taken is 45 units
+Path of taxi shafiq:terminal3,vasantvihar,cantonment,chanakyapuri,rashtrapatibhavan,indiagate, Time taken is 70 units
+Path of taxi ashutosh:terminal3,vasantvihar,cantonment,chanakyapuri,rashtrapatibhavan,indiagate, Time taken is 70 units
+Path of taxi rohit:terminal3,vasantvihar,cantonment,chanakyapuri,rashtrapatibhavan,indiagate, Time taken is 70 units
+Path of taxi sapna:indiagate, Time taken is 0 units
+** Chose taxi sapna to service the customer request ***
+Path of customer: 
+indiagate,rashtrapatibhavan,chanakyapuri,munirka, Time taken is 45
+
+action to be performed: printTaxiPosition 41
+TAXI adam IS SERVING A CLIENT and will be available after 75 from ORIGIN
+ Taxi alice:indiagate
+TAXI bob IS SERVING A CLIENT and will be available after 60 from ORIGIN
+TAXI prathmesh IS SERVING A CLIENT and will be available after 120 from ORIGIN
+ Taxi manoj:AIIMS
+ Taxi rajesh:AIIMS
+ Taxi harinder:lajpatnagar
+ Taxi ismail:lajpatnagar
+TAXI chinappa IS SERVING A CLIENT and will be available after 125 from ORIGIN
+ Taxi sheshadri:munirka
+ Taxi john:munirka
+TAXI ankit IS SERVING A CLIENT and will be available after 45 from ORIGIN
+TAXI raja IS SERVING A CLIENT and will be available after 50 from ORIGIN
+ Taxi mary:munirka
+ Taxi shafiq:terminal3
+ Taxi ashutosh:terminal3
+ Taxi rohit:terminal3
+TAXI ram IS SERVING A CLIENT and will be available after 55 from ORIGIN
+TAXI cyrus IS SERVING A CLIENT and will be available after 60 from ORIGIN
+TAXI sapna IS SERVING A CLIENT and will be available after 85 from ORIGIN
+
+action to be performed: customer rashtrapatibhavan terminal3 45
+
+Path of taxi alice:indiagate,rashtrapatibhavan, Time taken is 5 units
+Path of taxi manoj:AIIMS,indiagate,rashtrapatibhavan, Time taken is 35 units
+Path of taxi rajesh:AIIMS,indiagate,rashtrapatibhavan, Time taken is 35 units
+Path of taxi harinder:lajpatnagar,AIIMS,indiagate,rashtrapatibhavan, Time taken is 55 units
+Path of taxi ismail:lajpatnagar,AIIMS,indiagate,rashtrapatibhavan, Time taken is 55 units
+Path of taxi sheshadri:munirka,chanakyapuri,rashtrapatibhavan, Time taken is 40 units
+Path of taxi john:munirka,chanakyapuri,rashtrapatibhavan, Time taken is 40 units
+Path of taxi mary:munirka,chanakyapuri,rashtrapatibhavan, Time taken is 40 units
+Path of taxi shafiq:terminal3,vasantvihar,cantonment,chanakyapuri,rashtrapatibhavan, Time taken is 65 units
+Path of taxi ashutosh:terminal3,vasantvihar,cantonment,chanakyapuri,rashtrapatibhavan, Time taken is 65 units
+Path of taxi rohit:terminal3,vasantvihar,cantonment,chanakyapuri,rashtrapatibhavan, Time taken is 65 units
+** Chose taxi alice to service the customer request ***
+Path of customer: 
+rashtrapatibhavan,chanakyapuri,cantonment,vasantvihar,terminal3, Time taken is 65
+
+action to be performed: printTaxiPosition 46
+TAXI adam IS SERVING A CLIENT and will be available after 75 from ORIGIN
+TAXI alice IS SERVING A CLIENT and will be available after 115 from ORIGIN
+TAXI bob IS SERVING A CLIENT and will be available after 60 from ORIGIN
+TAXI prathmesh IS SERVING A CLIENT and will be available after 120 from ORIGIN
+ Taxi manoj:AIIMS
+ Taxi rajesh:AIIMS
+ Taxi harinder:lajpatnagar
+ Taxi ismail:lajpatnagar
+TAXI chinappa IS SERVING A CLIENT and will be available after 125 from ORIGIN
+ Taxi sheshadri:munirka
+ Taxi john:munirka
+ Taxi ankit:vasantvihar
+TAXI raja IS SERVING A CLIENT and will be available after 50 from ORIGIN
+ Taxi mary:munirka
+ Taxi shafiq:terminal3
+ Taxi ashutosh:terminal3
+ Taxi rohit:terminal3
+TAXI ram IS SERVING A CLIENT and will be available after 55 from ORIGIN
+TAXI cyrus IS SERVING A CLIENT and will be available after 60 from ORIGIN
+TAXI sapna IS SERVING A CLIENT and will be available after 85 from ORIGIN
+
+action to be performed: printTaxiPosition 200
+ Taxi adam:AIIMS
+ Taxi alice:terminal3
+ Taxi bob:AIIMS
+ Taxi prathmesh:lajpatnagar
+ Taxi manoj:AIIMS
+ Taxi rajesh:AIIMS
+ Taxi harinder:lajpatnagar
+ Taxi ismail:lajpatnagar
+ Taxi chinappa:lajpatnagar
+ Taxi sheshadri:munirka
+ Taxi john:munirka
+ Taxi ankit:vasantvihar
+ Taxi raja:chanakyapuri
+ Taxi mary:munirka
+ Taxi shafiq:terminal3
+ Taxi ashutosh:terminal3
+ Taxi rohit:terminal3
+ Taxi ram:cantonment
+ Taxi cyrus:terminal3
+ Taxi sapna:munirka
