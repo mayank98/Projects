@@ -1,1 +1,1 @@
-Programming assignments done as a part of univeristy course(s).
+## Programming assignments done as a part of university courses.
